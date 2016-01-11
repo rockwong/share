@@ -35,18 +35,103 @@ Sourcetree: 勾选 “未暂存文件”，并填写提交信息。   <!-- .elem
 
 ![git init](images/git/git-commit.jpg) <!-- .element: class="fragment" data-fragment-index="2" -->
 
-命令行：    <!-- .element: class="fragment" data-fragment-index="3" -->
+--
+命令行：
 
 ```
     $ git add --all
-    $ git commit -m add: git.html#/3 添加和提交
+    $ git commit -m 'add: git.html#/3 添加和提交'
 ```
-<!-- .element: class="fragment" data-fragment-index="4" -->
+<!-- .element: class="fragment" data-fragment-index="3" -->
+--
 
 
 ---
-##小标题 <!-- .element: class="fragment" data-fragment-index="1" -->
-内容部分 <!-- .element: class="fragment" data-fragment-index="2" -->
 
+## 推送提交
+Sourcetree: 点击推送，勾选分支 <!-- .element: class="fragment" data-fragment-index="1" -->
+![git init](images/git/push.jpg) <!-- .element: class="fragment" data-fragment-index="1" -->
+
+命令行：<!-- .element: class="fragment" data-fragment-index="2" -->
+
+```
+    $ git push origin master
+```
+<!-- .element: class="fragment" data-fragment-index="2" -->
+
+---
+
+## 获取提交
+Sourcetree: 点击拉取 <!-- .element: class="fragment" data-fragment-index="1" -->
+![git init](images/git/pull.jpg) <!-- .element: class="fragment" data-fragment-index="1" -->
+
+命令行：<!-- .element: class="fragment" data-fragment-index="2" -->
+
+```
+    $ git pull
+```
+<!-- .element: class="fragment" data-fragment-index="2" -->
+
+---
+
+## 如何编写一个良好的提交信息
+
+提交的动作 + 修改的位置 + 修改的说明 <!-- .element: class="fragment" data-fragment-index="1" -->
 Note:
-    This will only display in the notes window.
+    Tip:不要填写无意义或空白的提交信息。
+
+--
+    ##提交的动作
+
+    * `Update` / 更新     <!-- .element: class="fragment" data-fragment-index="1" -->
+    * `Add` / 新增<!-- .element: class="fragment" data-fragment-index="1" -->
+    * `Remove` / 删除     <!-- .element: class="fragment" data-fragment-index="1" -->
+    * `Polish` / 改进     <!-- .element: class="fragment" data-fragment-index="1" -->
+    * `Fix` / 修复        <!-- .element: class="fragment" data-fragment-index="1" -->
+--
+     ##修改的位置
+
+     * slide1 <!-- .element: class="fragment" data-fragment-index="1" -->
+     * homepage <!-- .element: class="fragment" data-fragment-index="1" -->
+     * login.html  <!-- .element: class="fragment" data-fragment-index="1" -->
+--
+    ##修改的说明
+
+    * 去掉多余图片 <!-- .element: class="fragment" data-fragment-index="1" -->
+    * 更换最新版Jquery库 <!-- .element: class="fragment" data-fragment-index="1" -->
+    * 新增登录页面  <!-- .element: class="fragment" data-fragment-index="1" -->
+--
+## 示例
+
+![git init](images/git/commit-info.jpg)
+
+```
+add : slide1 red done
+
+fix: 拖拽窗口页面混乱的问题
+
+update: 更改jquery 插件版本
+
+polish: pop重构 统一风格减少代码
+
+```
+
+---
+
+#没有Git服务器？
+
+[Coding](https://coding.net/) 国内速度快、免费 、稳定性稍差
+
+<!-- .element: class="fragment" data-fragment-index="1" -->
+
+[Bitbucket](https://bitbucket.org/) 国外速度稍慢、免费
+
+<!-- .element: class="fragment" data-fragment-index="2" -->
+
+[Github](http://github.com/) 私有库收费
+
+<!-- .element: class="fragment" data-fragment-index="3" -->
+
+
+
+
