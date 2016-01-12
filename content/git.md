@@ -83,11 +83,10 @@ Note:
 --
     ##提交的动作
 
-    * `Update` / 更新     <!-- .element: class="fragment" data-fragment-index="1" -->
-    * `Add` / 新增<!-- .element: class="fragment" data-fragment-index="1" -->
-    * `Remove` / 删除     <!-- .element: class="fragment" data-fragment-index="1" -->
-    * `Polish` / 改进     <!-- .element: class="fragment" data-fragment-index="1" -->
-    * `Fix` / 修复        <!-- .element: class="fragment" data-fragment-index="1" -->
+    * `update` / 更新     <!-- .element: class="fragment" data-fragment-index="1" -->
+    * `add` / 新增<!-- .element: class="fragment" data-fragment-index="1" -->
+    * `polish` / 改进     <!-- .element: class="fragment" data-fragment-index="1" -->
+    * `fix` / 修复        <!-- .element: class="fragment" data-fragment-index="1" -->
 --
      ##修改的位置
 
@@ -131,6 +130,38 @@ polish: pop重构 统一风格减少代码
 [Github](http://github.com/) 私有库收费
 
 <!-- .element: class="fragment" data-fragment-index="3" -->
+
+---
+
+#Github Pages
+
+用来制作个人网站和项目网站 <!-- .element: class="fragment" data-fragment-index="1" -->
+
+
+---
+
+#创建一个Github Page
+
+创建一个仓库名称为： username.github.io
+
+
+---
+
+#绑定域名
+
+在项目的根目录下建立一个文件：CNAME
+
+```
+域名.com
+```
+
+域名解析到 username.github.io 即可
+
+
+---
+
+#thanks!
+
 
 
 
