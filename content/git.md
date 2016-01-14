@@ -160,6 +160,15 @@ polish: pop重构 统一风格减少代码
 
 ---
 
+##推荐git小游戏
+
+[githug](https://github.com/Gazler/githug)
+
+[游戏秘籍](http://www.jianshu.com/p/482b32716bbe)
+<!-- .element: class="fragment" data-fragment-index="1" -->
+
+---
+
 #thanks!
 
 
